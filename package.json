@@ -1,0 +1,11 @@
+{
+  "name": "code-based-art-gallery",
+  "version": "1.0.0",
+  "description": "Description of your app",
+  "scripts": {
+    "start": "app.js"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
