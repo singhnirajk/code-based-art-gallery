@@ -1,0 +1,37 @@
+{
+    "featuredArtwork": [
+      {
+        "id": 1,
+        "title": "Spiral Dreams",
+        "artist": "John Doe",
+        "description": "A mesmerizing spiral pattern created using generative algorithms.",
+        "codeSnippet": "// Add your code snippet here",
+        "imageUrl": "spiral-dreams.jpeg"
+      },
+      {
+        "id": 2,
+        "title": "Pixelated Paradise",
+        "artist": "Jane Smith",
+        "description": "An abstract pixel art landscape generated dynamically.",
+        "codeSnippet": "// Add your code snippet here",
+        "imageUrl": "pizelated-paradise.jpeg"
+      },
+      {
+        "id": 3,
+        "title": "Neon Nights",
+        "artist": "Alex Johnson",
+        "description": "Vibrant neon colors dance across the screen in this interactive artwork.",
+        "codeSnippet": "// Add your code snippet here",
+        "imageUrl": "neon-nights.jpeg"
+      },
+      {
+        "id": 4,
+        "title": "Galactic Symphony",
+        "artist": "Emily Brown",
+        "description": "An immersive audio-visual experience inspired by the cosmos.",
+        "codeSnippet": "// Add your code snippet here",
+        "imageUrl": "galactic-symphony.jpeg"
+      }
+    ]
+  }
+  

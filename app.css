@@ -1,0 +1,107 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Helvetica', sans-serif; /* Apple's preferred font */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333; /* Dark gray header background */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333; /* Dark text color */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #666; /* Darker text color on hover */
+}
+
+main {
+    padding: 40px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.artwork {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artwork-item {
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.artwork-preview {
+    background-color: #ccc; /* Light gray placeholder for artwork preview */
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.artwork-details h3 {
+    color: #333; /* Dark text color */
+    margin-bottom: 10px;
+}
+
+.artwork-details p {
+    color: #666; /* Medium gray text color */
+    margin-bottom: 10px;
+}
+
+.code-editor {
+    background-color: #f9f9f9; /* Light gray background for code editor */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333; /* Dark gray footer background */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .artwork-item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 576px) {
+    .artwork-item {
+        width: 100%;
+    }
+}
